@@ -31,8 +31,10 @@ public class StudentModel {
         this.email = email;
     }
 
-    public StudentModel(){
-
+    public StudentModel(int id,String name,String email){
+        this.id=id;
+        this.name=name;
+        this.email=email;
     }
 
 }
